@@ -1,0 +1,32 @@
+# base
+Babel
+Flask
+Flask-Babel
+Flask-FlatPages
+Flask-Script
+Flask-WTF
+flask_restful
+Jinja2
+Markdown
+PyYAML
+Werkzeug
+itsdangerous
+requests
+speaklater
+schema
+flask-cors
+pytest
+
+# Cache and Celery
+Flask-Cache
+pylibmc
+
+# pymongo
+pymongo
+flask_pymongo
+
+# auth
+Flask-Login
+Flask_JWT_Extended
+Flask_Bcrypt
+jsonschema

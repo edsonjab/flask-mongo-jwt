@@ -1,0 +1,16 @@
+version : '3.5'
+services:
+  web_dev:
+    build: .
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/app
+    environment:
+      - ENV=development
+      - PORT=4000
+      - DB=mongodb://192.168.10.78:27017/todoDev
+      - SECRET='ticket'
+networks:
+  default:
+    name: web_dev
